@@ -1,0 +1,10 @@
+html[data-theme='dark']{
+    --body-bg: #242e34;
+    --text: #ffffff;
+    --disabled-input: #425660;
+}
+html[data-theme='light']{
+    --body-bg: #ffffff;
+    --text: #000000;
+    --disabled-input: #eceff1;
+}

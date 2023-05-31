@@ -1,0 +1,14 @@
+.search{
+    display: flex;
+    gap: 10px;
+    @media (max-width: 960px){
+        flex-wrap: wrap;
+    }
+}
+
+.inputText{
+    color: var(--text);
+    &:disabled{
+        background-color:  var(--disabled-input);
+    }
+}
